@@ -73,7 +73,7 @@
 
 
 - name: Install kibana
-  hosts: elasticsearch
+  hosts: kibana
   tasks:
     - name: Upload tar.gz Kibana from remote URL
       get_url:
